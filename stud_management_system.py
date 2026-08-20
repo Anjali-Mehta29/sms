@@ -90,13 +90,6 @@ class SMS:
 
     def view_record(self):
 
-        # if len(self.students)!= 0:
-        #     for student in self.students:
-        #             student.display()
-        #             break
-        # else:
-        #     print("No student records found.")
-
         if len(self.students) != 0:
             for student in self.students:
                  if student.display():
